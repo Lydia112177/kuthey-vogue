@@ -1,5 +1,6 @@
 const book = document.getElementById("book");
   const pages = document.querySelectorAll(".page");
+  
   let current = 0;
 
   book.addEventListener("click", (e) => {

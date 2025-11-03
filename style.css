@@ -11,8 +11,8 @@
   }
 
   .book {
-    width: 480px;
-    height: 800px;
+    width: 450px;
+    height: 720px;
     position: relative;
     perspective: 2000px;
   }
@@ -99,48 +99,45 @@
   }
 
   /* --- PAGE 2 (Birthday Message) --- */
-  .second-page {
+ .second-page {
     background: #fdfaf6;
-    padding: 20px;
+  font-style: italic;
     text-align: center;
+    font-weight: bold;
     color: rgb(19, 18, 18);
     
   }
 
-
-  .birthday-header .mag-sub {
-    display: flex;
-    justify-content: space-between;
-    font-size: 16px;
-    margin: 0 20px;
-    font-style: italic;
-    border-bottom: 1px solid #fffbfb;
-    padding-bottom: 5px;
-  }
-
-  .happy-title {
-    font-size: 20px;
-    margin-top: 10px;
-    letter-spacing: 1px;
-  }
-
-  .to-friend {
-    font-size: 16px;
-    font-weight: normal;
-    margin-bottom: 10px;
-  }
-
-  .birthday-content {
-  text-align:center;
-  font-size: 16px;
-  color: #01101a;
-  line-height: 1.4;
-  font-weight: bold;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: calc(100% - 20px); /* ensures text fits inside page with margins */
-  box-sizing: border-box; /* prevents overflow caused by padding/margins */
+.birthday-content {
+  background: rgba(255, 255, 240, 0.6); /* subtle parchment overlay */
+  padding: 20px;
+  border-radius: 10px;
+  width: calc(100% - 60px);
+  height: auto;
+  text-align: justify;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
 }
+
+.birthday-content h4 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-style: italic;
+  color: #4b3b28;
+}
+
+.birthday-content p {
+  margin-bottom: 12px;
+  font-size: 15px;
+}
+
+.signature {
+  margin-top: 25px;
+  text-align: right;
+  font-style: italic;
+  color: #5c4630;
+}
+
 
   /* --- PAGE 3 (Who’s That Girl) --- */
   .third-page {
