@@ -131,13 +131,16 @@
   }
 
   .birthday-content {
-    text-align: justify;
-    
-    font-size: 16px;
-    line-height: 1.4;
-    font-weight: bold;
-     
-  }
+  text-align: justify;
+  font-size: 16px;
+  color: #01101a;
+  line-height: 1.4;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: calc(100% - 20px); /* ensures text fits inside page with margins */
+  box-sizing: border-box; /* prevents overflow caused by padding/margins */
+}
 
   /* --- PAGE 3 (Who’s That Girl) --- */
   .third-page {
