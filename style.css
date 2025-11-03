@@ -103,8 +103,10 @@
     background: #fdfaf6;
     padding: 20px;
     text-align: center;
-    color: black;
+    color: rgb(17, 17, 17);
+    
   }
+
 
   .birthday-header .mag-sub {
     display: flex;
@@ -134,6 +136,7 @@
     font-size: 18px;
     line-height: 1.4;
     font-weight: bold;
+     
   }
 
   /* --- PAGE 3 (Who’s That Girl) --- */
@@ -153,6 +156,7 @@
     font-size: 30px;
     margin-bottom: 10px;
     line-height: 1;
+    color: #111;
   }
 
   .text-section p {
