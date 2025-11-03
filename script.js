@@ -22,5 +22,10 @@ const book = document.getElementById("book");
       }
     }
   });
+  document.body.addEventListener("click", () => {
+  const music = document.getElementById("bg-music");
+  music.play();
+}, { once: true });
+
   
  
