@@ -11,8 +11,8 @@
   }
 
   .book {
-    width: 400px;
-    height: 620px;
+    width: 350px;
+    height: 720px;
     position: relative;
     perspective: 2000px;
   }
