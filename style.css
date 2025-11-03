@@ -133,7 +133,7 @@
   .birthday-content {
     text-align: justify;
     margin: 10px 20px;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 1.4;
     font-weight: bold;
      
@@ -160,7 +160,7 @@
   }
 
   .text-section p {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.5;
     text-align: justify;
     margin-top: 110px;
